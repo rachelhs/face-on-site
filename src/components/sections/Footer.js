@@ -32,7 +32,7 @@ export const Container = styled.div`
 `;
 
 const FooterWrapper = styled.footer`
-  background-color: ${props => props.theme.colour.blue.dark};
+  background-color: ${props => props.theme.colour.white};
   padding: 32px 0;
   @media (max-width: ${props => props.theme.screen.sm}) {
     padding: 15px 0;

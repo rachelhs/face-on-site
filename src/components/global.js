@@ -39,30 +39,15 @@ export const Section = styled.section`
   }
 
     ${props => {
-    if (props.accent === 'dark') {
+    if (props.accent === 'green') {
       return `
-        background-color: ${props.theme.colour.blue.dark};
-        color: ${props.theme.colour.text.light}
+        background-color: ${props.theme.colour.green};
+        color: ${props.theme.colour.text.black}
     `
-    } else if (props.accent === 'mid') {
-      return `
-        background-color: ${props.theme.colour.blue.mid};
-        color: ${props.theme.colour.text.light}
-    `
-    } else  if (props.accent === 'light'){
-      return `
-      background-color: ${props.theme.colour.blue.light};
-      color: ${props.theme.colour.text.dark}
-    `
-    } else  if (props.accent === 'pink'){
-      return `
-      background-color: ${props.theme.colour.pink};
-      color: ${props.theme.colour.text.dark}
-    `
-    } else {
+    }  else {
       return `
       background-color: ${props.theme.colour.white};
-      color: ${props.theme.colour.text.dark}
+      color: ${props.theme.colour.text.black}
     `
     }
   }}

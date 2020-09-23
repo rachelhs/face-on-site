@@ -12,21 +12,11 @@ const theme = {
     xlarge: 'font-size: 48px; line-height: 56px',
   },
   colour: {
-    //base colours//
-    blue: {
-      dark: '#273582', // dark purple
-      mid: '#404d9c', // mid purple
-      light: '#c3d7db', // light blue
-    },
     white: '#FFFFFF',
-    pink: '#f9d0c8',
-    grey: '#c6c6c5',
-    //font colours//
+    green: '#00FF00',
     text: {
-      black: '#000000',
-      dark: '#273582',
-      light: '#FFFFFF',
-    },
+      black: '#000000'
+    }
   },
   screen: {
     xs: '575px',

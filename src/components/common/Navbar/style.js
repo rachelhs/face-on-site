@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   padding: 16px 0;
-  background-color: ${props => props.theme.colour.blue.dark};
+  background-color: ${props => props.theme.colour.white};
   position: fixed;
   width: 100%;
   height: 75px;
@@ -84,7 +84,7 @@ export const MobileMenu = styled.div`
   padding-top: 0;
   padding-bottom: 40px;
   text-align: center;
-  background: ${props => props.theme.colour.blue.dark};
+  background: ${props => props.theme.colour.white};
   a {
     font-size: 40px;
   }

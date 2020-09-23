@@ -76,10 +76,10 @@ const GlobalStyles = createGlobalStyle`
     color:${props => props.theme.colour.text.black};
   }
   a:hover{
-    color:${props => props.theme.colour.blue.dark};
+    color:${props => props.theme.colour.text.black};
   }
   a:active{
-    color:${props => props.theme.colour.blue.mid};
+    color:${props => props.theme.colour.text.black};
   }
   .underline {
       border-bottom-width: 0.5px;

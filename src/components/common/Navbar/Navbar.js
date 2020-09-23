@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Scrollspy from 'react-scrollspy';
-import logo from "../../../images/logos/white-logo-nav.png";
 
 import { Container } from '@components/global';
 import {
   Nav,
   NavItem,
-  Brand,
   StyledContainer,
   NavListWrapper,
   MobileMenu,
@@ -16,7 +14,7 @@ import {
 
 import { HamburgerCollapse } from 'react-animated-burgers';
 
-const NAV_ITEMS = ['Project', 'Book', 'Team'];
+const NAV_ITEMS = [];
 
 class Navbar extends Component {
   state = {
@@ -60,9 +58,6 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand>
-          <AnchorLink href={`#header`}><img src={logo} alt="Logo" width="40px" /></AnchorLink>
-          </Brand> 
           <Mobile>
             <HamburgerCollapse onClick={this.toggleMobileMenu}  isActive={this.state.mobileMenuOpen} toggleButton={this.toggleButton} buttonWidth={40} barColor="white" />
           </Mobile>
