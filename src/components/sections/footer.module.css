@@ -1,0 +1,14 @@
+.text {
+    padding-bottom: 1px;
+    line-height: 22px;
+    font-size: 13px;
+    text-align: right;
+    color: #c6c6c5;
+}
+
+@media (max-width: 720px) {
+    .text {
+        font-size: 8px;
+        text-align: center;
+    }
+}

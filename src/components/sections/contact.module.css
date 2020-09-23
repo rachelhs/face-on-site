@@ -1,0 +1,10 @@
+.title {
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.link {
+    color:white !important;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+}

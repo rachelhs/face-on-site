@@ -1,0 +1,51 @@
+{
+  "name": "gatsby-absurd",
+  "private": true,
+  "description": "An absurd starter for Gatsby",
+  "version": "0.1.0",
+  "author": "Ajay NS <ajay.ns@outlook.com>",
+  "dependencies": {
+    "@svgr/webpack": "^4.1.0",
+    "aos": "^2.3.4",
+    "gatsby": "^2.0.76",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-google-fonts": "^0.0.4",
+    "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-offline": "^2.0.16",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-plugin-svgr": "^2.0.1",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-anchor-link-smooth-scroll": "^1.0.11",
+    "react-animated-burgers": "^1.2.7",
+    "react-collapsible": "^2.6.0",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0",
+    "react-lottie": "^1.2.3",
+    "react-scrollspy": "^3.3.5",
+    "react-simple-chatbot": "git+https://github.com/rachelhs/react-simple-chatbot.git",
+    "scrollmonitor-react": "^2.4.1",
+    "styled-components": "^4.4.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "dev-m": "gatsby develop -H 0.0.0.0 -p 8000",
+    "start": "npm run dev",
+    "format": "prettier --write \"src/**/*.js\"",
+    "clean": "rm -rf .cache && rm -rf public"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  }
+}

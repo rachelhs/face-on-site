@@ -1,0 +1,15 @@
+.centreDiv {
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px){
+    .title {
+        margin-top:15px;
+    }
+}
+
+.link {
+    color:#273582 !important;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+}
