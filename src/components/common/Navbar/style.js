@@ -5,8 +5,9 @@ export const Nav = styled.nav`
   background-color: ${props => props.theme.colour.white};
   position: fixed;
   width: 100%;
-  height: 75px;
+  height: 80px;
   top: 0;
+  margin-top: 20px;
   z-index: 1000;
 `;
 
