@@ -1,8 +1,8 @@
 const theme = {
 
   font: {
-    primary: `'Futura', serif`,
-    secondary: `'T-Star', serif`,
+    primary: `PxGrotesk-Screen, serif`,
+    secondary: `PxGrotesk-Screen, serif`,
   },
   font_size: {
     small: 'font-size: 20px; line-height: 30px',

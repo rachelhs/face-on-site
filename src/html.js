@@ -5,8 +5,6 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-      <script src="https://cdn.enable.co.il/licenses/enable-L6149fc2kjs39v6-0720-14648/init.js"></script>
-
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta

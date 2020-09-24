@@ -2,11 +2,11 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'A project exploring the carbon impact of data infrastructure',
-  title: 'Looking for the Cloud',
+  description: 'An interactive installation exploring facial recognition systems',
+  title: 'Face / On',
   url: '',
-  author: 'Rachel Smith and Ellie Foreman',
-  keywords: ['environment', 'cloud', 'carbon', 'cloud computing'],
+  author: 'Rachel Smith',
+  keywords: ['facial recognition', 'face recognition', 'media art', 'control shift'],
   img: '',
   twitterId: '',
   facebookId: '',
