@@ -46,8 +46,10 @@ const GlobalStyles = createGlobalStyle`
       ${props => props.theme.font_size.large};
     }
     h2 {
-      ${props => props.theme.font_size.regular};
-      text-align: centre;
+      ${props => props.theme.font_size.small};
+      text-align: left;
+      hyphens: auto;
+      line-height: 25px;
     }
     h3 {
       ${props => props.theme.font_size.regular};
