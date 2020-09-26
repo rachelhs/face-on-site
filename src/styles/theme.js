@@ -5,6 +5,7 @@ const theme = {
     secondary: `PxGrotesk-Screen, serif`,
   },
   font_size: {
+    xsmall: 'font-size: 15px; line-height: 25px',
     small: 'font-size: 20px; line-height: 30px',
     regular: 'font-size: 24px',
     large: 'font-size: 30px; line-height: 40px',

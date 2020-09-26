@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '@common/Layout';
-import Navbar from '@common/Navbar';
+import Images from '@sections/Images';
 import About from '@sections/About';
 import HowTo from '@sections/HowTo';
 import Disguises from '@sections/Disguises';
@@ -11,7 +11,7 @@ import SupportedBy from '@sections/SupportedBy';
 
 const IndexPage = () => (
   <Layout>
-    <Navbar />
+    <Images />
     <About />
     <HowTo />
     <Disguises />

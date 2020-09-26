@@ -3,4 +3,17 @@ max-height: 100%;
 max-width: 80%;
 display: flex;
 margin: 0 auto;
+background: none;
+}
+
+.supportedLogo {
+    height: 70px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.supportedLogoTall {
+    height: 100px;
+    display: flex;
+    margin: 30px auto;
 }

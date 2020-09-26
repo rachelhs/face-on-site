@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   padding: 16px 0;
-  background-color: ${props => props.theme.colour.white};
   position: fixed;
   width: 100%;
   height: 80px;

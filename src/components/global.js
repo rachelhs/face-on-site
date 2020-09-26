@@ -32,7 +32,7 @@ export const FirstContainer = styled.div`
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 107px;
+  margin-top: 30px;
 
   @media (min-width: ${props => props.theme.screen.xs}) {
     max-width: 540px;
@@ -78,6 +78,16 @@ export const Section = styled.section`
     `
     }
   }}
+`;
+
+export const FirstSection = styled.section`
+padding: 0;
+  overflow: hidden;
+
+  @media (max-width: ${props => props.theme.screen.md}) {
+    padding: 0;
+
+  }
 `;
 
 export const Title = styled.div`

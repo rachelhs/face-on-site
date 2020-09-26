@@ -36,7 +36,8 @@ const GlobalStyles = createGlobalStyle`
     ${props => props.theme.font_size.large};
   }
   h3 {
-    ${props => props.theme.font_size.larger};
+    ${props => props.theme.font_size.large};
+    text-align: center;
   }
   p {
     ${props => props.theme.font_size.regular};
@@ -46,13 +47,13 @@ const GlobalStyles = createGlobalStyle`
       ${props => props.theme.font_size.large};
     }
     h2 {
-      ${props => props.theme.font_size.small};
+      ${props => props.theme.font_size.xsmall};
       text-align: left;
       hyphens: auto;
-      line-height: 25px;
     }
     h3 {
-      ${props => props.theme.font_size.regular};
+      ${props => props.theme.font_size.xsmall};
+      text-align: center;
     }
     p {
       ${props => props.theme.font_size.small};
