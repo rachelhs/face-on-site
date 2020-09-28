@@ -62,7 +62,11 @@ export const Section = styled.section`
   overflow: hidden;
 
   @media (max-width: ${props => props.theme.screen.md}) {
-    padding: 20px 0;
+    padding: 30px 0;
+  }
+
+  @media (min-width: ${props => props.theme.screen.sm}) {
+    padding: 60px 0px 0;
   }
 
     ${props => {
@@ -105,12 +109,18 @@ padding: 15px;
 padding-top: 18px;
 line-height: 20px;
 ${props => props.theme.font_size.regular};
-`;
+
+@media (min-width: ${props => props.theme.screen.sm}) {
+  padding: 40px;
+}`
+;
 
 export const ParagraphText = styled.div`
 margin-top: 40px;
 margin-left: 50px;
 margin-right: 50px;
-`;
+@media (min-width: ${props => props.theme.screen.sm}) {
+  margin-top: 70px;
+}`;
 
 

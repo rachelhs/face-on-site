@@ -4,3 +4,13 @@
     margin: 0 50px;
 
 }
+
+.spacer {
+    height: 0px;
+}
+
+@media screen and (min-width: 767px) {
+    .spacer {
+        height: 60px;
+    }
+  }

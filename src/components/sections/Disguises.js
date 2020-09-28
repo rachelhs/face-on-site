@@ -8,6 +8,7 @@ const Disguises = () => (
     <Container style={{ position: 'relative' }}>
       <Title><TitleText>DISGUISES</TitleText></Title>
       <br />
+      <div className={listStyles.spacer}></div>
         <div className={listStyles.listContainer}><h3>https://reflect.tech/faceswap</h3></div>
         <div className={listStyles.listContainer}><h3>https://www.deepar.ai/demos</h3></div>
     </Container>

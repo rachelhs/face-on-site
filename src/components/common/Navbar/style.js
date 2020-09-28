@@ -8,6 +8,9 @@ export const Nav = styled.nav`
   top: 0;
   margin-top: 20px;
   z-index: 1000;
+  @media (min-width: ${props => props.theme.screen.sm}) {
+    height: 200px;
+  }
 `;
 
 export const Container = styled.div`

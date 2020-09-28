@@ -17,3 +17,17 @@ background: none;
     display: flex;
     margin: 30px auto;
 }
+
+@media screen and (min-width: 767px) {
+    .supportedLogo {
+        height: 120px;
+        margin: 60px auto;
+    }
+  }
+
+  @media screen and (min-width: 767px) {
+    .supportedLogoTall {
+        height: 170px;
+        margin: 60px auto;
+    }
+  }

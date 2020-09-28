@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  pathPrefix: `/face-on`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
