@@ -1,13 +1,13 @@
 import React from 'react';
-import { Section, Title, TitleText, FirstContainer, ParagraphText } from '@components/global';
+import { Section, Title, TitleText, Container, ParagraphText } from '@components/global';
 
 const About = () => (
   <Section id="about">
-    <FirstContainer>
+    <Container>
     <Title><TitleText>ABOUT</TitleText></Title>
-      <ParagraphText><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus orci, vehicula non interdum eu, finibus sed nisi. Sed pellentesque est urna, nec cursus eros hendrerit a. Phasellus auctor ut enim a faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a lectus mollis, imperdiet urna eget, imperdiet erat. Praesent luctus ut ante cursus iaculis. In lacinia metus neque, eget ullamcorper massa posuere a. Donec tempus eget libero in faucibus. Maecenas vitae massa tincidunt, pharetra nunc a, porta mi. Nulla facilisi. Nullam non porta massa. Donec at consectetur risus. Aliquam fermentum fermentum odio ac porttitor. Aliquam in magna egestas, tempor lectus non, laoreet urna. Cras posuere sed libero vel aliquet.
-      Nam at velit a massa consectetur ultricies in at diam. Donec tristique elit felis, a rhoncus lorem tempor et. Donec a facilisis orci. Suspendisse efficitur leo massa, in tincidunt ligula commodo eget. Maecenas iaculis mollis ullamcorper. Mauris tristique felis.</h2></ParagraphText>
-    </FirstContainer>
+      <ParagraphText><h2>How do AI systems decide on personal labels such as age and gender based on looks alone? Face / On is an interactive installation that explores what systems see. It takes the form of a closed door embedded with a facial recognition system. Face/On is a gatekeeper deciding on who looks like they fit its criteria, and who will be permitted entry past the threshold. It may be necessary to adopt a disguise to fool the system.
+      </h2></ParagraphText>
+    </Container>
   </Section>
 );
 export default About;

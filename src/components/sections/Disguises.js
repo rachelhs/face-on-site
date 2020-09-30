@@ -7,7 +7,7 @@ const Disguises = () => (
   <Section id="howTo" className={teamStyles.sectionCollective}>
     <Container style={{ position: 'relative' }}>
       <Title><TitleText>DISGUISES</TitleText></Title>
-      <ParagraphText><h2>Here are a few ways to change your face using free browser based apps from the web</h2></ParagraphText>
+      <ParagraphText><h2>Here are a few ways to change your face using free browser based apps from the web. Some of them require a photo of your face. If you've already got one on your phone, you can use that or pop outside to take one without a mask on.</h2></ParagraphText>
       <div className={listStyles.spacer}></div>
       <div className={listStyles.listContainer}><a href="https://reflect.tech/faceswap" target="_blank" rel="noopener noreferrer"><h3>Swap faces with a celebrity</h3></a></div>
         <div className={listStyles.listContainer}><a href="https://sdk.developer.deepar.ai/beautyDemo/index.html" target="_blank" rel="noopener noreferrer"><h3>Add some make up</h3></a></div>

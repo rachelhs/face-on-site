@@ -99,7 +99,7 @@ export const Title = styled.div`
   align-items: center;
   justify-content: center;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 50px;
   margin: 0 50px;
 `;

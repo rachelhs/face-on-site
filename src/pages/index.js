@@ -12,9 +12,9 @@ import SupportedBy from '@sections/SupportedBy';
 const IndexPage = () => (
   <Layout>
     <Images />
-    <About />
     <HowTo />
     <Disguises />
+    <About />
     <FAQ />
     <PrivacyStatement />
     <SupportedBy />

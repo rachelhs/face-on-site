@@ -1,4 +1,4 @@
-import PxGroteskScreen from 'fonts/PxGrotesk-Screen.otf';
+import PxGroteskScreen from './PxGrotesk-Screen.otf';
 
 export {
     PxGroteskScreen,
