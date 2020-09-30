@@ -42,7 +42,6 @@ export class Images extends React.Component {
   }
 
   render() {
-    console.log(this.state.screenHeight);
     return (
       <div>
       {((this.state.theposition < 930 && this.state.screenHeight < 4500) || (this.state.theposition < 2070 && this.state.screenHeight > 4500)) ? <Navbar /> : ''}

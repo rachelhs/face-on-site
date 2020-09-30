@@ -7,7 +7,7 @@ const PrivacyStatement = () => (
     <Container style={{ position: 'relative' }}>
       <Title><TitleText>PRIVACY</TitleText></Title>
       <ParagraphText>
-        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec augue non nisi porttitor dictum. Nulla quis turpis justo. Nullam tempor sed est nec hendrerit. Pellentesque nec velit elementum, lacinia elit id, tempor orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse enim nunc, sagittis sit amet placerat vitae.</h2>
+        <h2>Face / On takes a picture every few seconds and stores it locally. Images are sent to Microsoft Azure Face API for analysis. No pictures will be used without permission.</h2>
       </ParagraphText>
     </Container>
   </Section>

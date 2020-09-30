@@ -15,7 +15,6 @@ const IndexPage = () => (
     <HowTo />
     <Disguises />
     <About />
-    <FAQ />
     <PrivacyStatement />
     <SupportedBy />
   </Layout>
