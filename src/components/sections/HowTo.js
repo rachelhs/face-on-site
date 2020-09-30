@@ -5,7 +5,7 @@ import listStyles from './list.module.css';
 import arrow from '../../images/art/arrow.png';
 
 const HowTo = () => (
-  <Section id="howTo" className={teamStyles.sectionCollective}>
+  <Section id="howTo">
     <FirstContainer style={{ position: 'relative' }}>
       <Title><TitleText>HOW TO</TitleText></Title>
       <div className={listStyles.spacer}></div>

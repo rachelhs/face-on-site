@@ -47,6 +47,11 @@ const GlobalStyles = createGlobalStyle`
     ${props => props.theme.font_size.large};
     text-align: center;
   }
+  h4 {
+    ${props => props.theme.font_size.large};
+    text-align: left;
+    margin-bottom: 60px;
+  }
   p {
     ${props => props.theme.font_size.regular};
   }
@@ -62,6 +67,10 @@ const GlobalStyles = createGlobalStyle`
     h3 {
       ${props => props.theme.font_size.xsmall};
       text-align: center;
+    }
+    h4 {
+      ${props => props.theme.font_size.xsmall};
+      text-align: left;
     }
     p {
       ${props => props.theme.font_size.small};

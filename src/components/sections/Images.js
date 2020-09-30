@@ -42,9 +42,10 @@ export class Images extends React.Component {
   }
 
   render() {
+    console.log(this.state.screenHeight);
     return (
       <div>
-      {((this.state.theposition < 930 && this.state.screenHeight < 4000) || (this.state.theposition < 2070 && this.state.screenHeight > 4000)) ? <Navbar /> : ''}
+      {((this.state.theposition < 930 && this.state.screenHeight < 4500) || (this.state.theposition < 2070 && this.state.screenHeight > 4500)) ? <Navbar /> : ''}
       <FirstSection id="images">
         <img className={imageStyles.images} src={image1} alt="person interacting with door"></img>
         <img className={imageStyles.images} src={image2} alt="person interacting with door"></img>

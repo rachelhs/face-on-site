@@ -108,10 +108,12 @@ export const TitleText = styled.div`
 padding: 15px;
 padding-top: 18px;
 line-height: 20px;
-${props => props.theme.font_size.regular};
+${props => props.theme.font_size.small};
 
 @media (min-width: ${props => props.theme.screen.sm}) {
   padding: 40px;
+  ${props => props.theme.font_size.large};
+
 }`
 ;
 
