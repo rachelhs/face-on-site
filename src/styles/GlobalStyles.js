@@ -6,9 +6,8 @@ const normalize = `
 
 const GlobalStyles = createGlobalStyle`
   ${normalize};
-  @font-face {font-family: "T-Star"; src: url("//db.onlinewebfonts.com/t/4d6aeef29c4c70c6227ad86b5371f8e9.eot"); src: url("//db.onlinewebfonts.com/t/4d6aeef29c4c70c6227ad86b5371f8e9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4d6aeef29c4c70c6227ad86b5371f8e9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4d6aeef29c4c70c6227ad86b5371f8e9.woff") format("woff"), url("//db.onlinewebfonts.com/t/4d6aeef29c4c70c6227ad86b5371f8e9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4d6aeef29c4c70c6227ad86b5371f8e9.svg#T-Star") format("svg"); }
   body {
-    font-family: PxGrotesk-Screen, palatino, arial, sans-serif;
+    font-family: PxGrotesk-Screen, Courier, monospace;
   }
   h1, h2, h3 {
     margin: 0;
@@ -22,7 +21,7 @@ const GlobalStyles = createGlobalStyle`
   }
   
   h1, h2 {
-    font-family: PxGrotesk-Screen, sans-serif;
+    font-family: PxGrotesk-Screen, Courier, monospace;
     font-weight: 700;
     font-style: normal;
   }
