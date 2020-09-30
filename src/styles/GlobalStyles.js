@@ -6,6 +6,10 @@ const normalize = `
 
 const GlobalStyles = createGlobalStyle`
   ${normalize};
+  @font-face {
+    font-family: "PxGrotesk-Screen";
+    src: url("../../static/fonts/PxGrotesk-Screen.otf")   format("otf");
+  } 
   body {
     font-family: PxGrotesk-Screen, Courier, monospace;
   }
