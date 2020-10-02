@@ -15,8 +15,6 @@ const Disguises = () => (
       <div className={listStyles.listContainer}><img className={listStyles.arrow} src={arrow} alt="arrow"></img><a className={listStyles.text} href="https://sdk.developer.deepar.ai/preview/index.html?e=./effects/gold_face" target="_blank" rel="noopener noreferrer"><h3>Paint your face gold</h3></a></div>
       <div className={listStyles.listContainer}><img className={listStyles.arrow} src={arrow} alt="arrow"></img><a className={listStyles.text} href="https://www.photofunny.net/cat-stickers/photomontage-bearded-man-sticker#logo2" target="_blank" rel="noopener noreferrer"><h3>Grow a beard</h3></a></div>
       <div className={listStyles.listContainer}><img className={listStyles.arrow} src={arrow} alt="arrow"></img><a className={listStyles.text} href="https://changemyface.com/demo.php" target="_blank" rel="noopener noreferrer"><h3>Get older</h3></a></div>
-      <div className={listStyles.listContainer}><img className={listStyles.arrow} src={arrow} alt="arrow"></img><a className={listStyles.text} href="https://makeup.pho.to/" target="_blank" rel="noopener noreferrer"><h3>Smooth out wrinkles</h3></a></div>
-      <div className={listStyles.listContainer}><img className={listStyles.arrow} src={arrow} alt="arrow"></img><a className={listStyles.text} href="https://sdk.developer.deepar.ai/preview/index.html?e=./effects/bot" target="_blank" rel="noopener noreferrer"><h3>Be a robot</h3></a></div>
       <br />
     </Container>
   </Section>
