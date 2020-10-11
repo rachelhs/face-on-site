@@ -103,7 +103,82 @@ export const Title = styled.div`
   border-radius: 50px;
   margin: 0 50px;
   }`
-;
+  ;
+
+export const OpensForContainer = styled.div`
+  margin: 30px -30px;
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-between;
+
+  @media (max-width: ${props => props.theme.screen.md}) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  `;
+
+export const GenderContainer = styled.div`
+  
+  @media (max-width: ${props => props.theme.screen.md}) {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-evenly;
+  }
+
+  `;
+
+export const GenderSelected = styled.div`
+
+@media (max-width: ${props => props.theme.screen.md}) {
+  font-size: 10px;
+  height: 20px;
+  padding: 10px 20px;
+  width: 120px;
+}
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-size: 50px;
+  }
+
+`
+  ;
+
+export const GenderNotSelected = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  color: #c8c8c8;
+  ${props => props.theme.font_size.small};
+  }
+  @media (max-width: ${props => props.theme.screen.md}) {
+    font-size: 10px;
+    height: 20px;
+    padding: 10px 20px;
+    width: 120px;
+  }
+  
+  `
+  ;
+
+export const ResultsText = styled.div`
+${props => props.theme.font_size.xsmall};
+
+@media (max-width: ${props => props.theme.screen.md}) {
+  ${props => props.theme.font_size.xsmall};
+
+}`
+  ;
 
 export const TitleText = styled.div`
 padding: 15px;
@@ -116,7 +191,7 @@ ${props => props.theme.font_size.small};
   ${props => props.theme.font_size.large};
 
 }`
-;
+  ;
 
 export const ParagraphText = styled.div`
 margin-top: 40px;

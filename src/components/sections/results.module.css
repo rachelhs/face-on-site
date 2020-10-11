@@ -1,0 +1,21 @@
+.resultsImage {
+    margin-left: calc(50% - 400px);
+}
+
+@media screen and (max-width: 767px) {
+    .resultsImage {
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+  }
+
+.space {
+    margin-top: 30px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .space {
+        margin-top: 0;
+    }
+  }
