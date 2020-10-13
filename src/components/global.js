@@ -106,6 +106,7 @@ export const Title = styled.div`
   ;
 
 export const OpensForContainer = styled.div`
+
   margin: 30px -30px;
   display: flex;
   flex-direction: rows;
@@ -119,7 +120,9 @@ export const OpensForContainer = styled.div`
   `;
 
 export const GenderContainer = styled.div`
-  
+
+  display: flex;
+
   @media (max-width: ${props => props.theme.screen.md}) {
     display: flex;
     flex-direction: rows;

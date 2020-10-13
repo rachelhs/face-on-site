@@ -13,7 +13,7 @@ const Results = () => (
 
             <OpensForContainer>
                 <ResultsText>Opens For:</ResultsText>
-                <GenderContainer>
+                <GenderContainer className={resultsStyles.genderContainer}>
                     <GenderSelected>FEMALE</GenderSelected>
                     <GenderNotSelected>GENDERLESS</GenderNotSelected>
                     <GenderNotSelected>MALE</GenderNotSelected>
