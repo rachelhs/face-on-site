@@ -110,11 +110,12 @@ export const OpensForContainer = styled.div`
   margin: 30px -30px;
   display: flex;
   flex-direction: rows;
-  justify-content: space-between;
+  justify-content: center;
 
   @media (max-width: ${props => props.theme.screen.md}) {
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
   }
 
   `;
@@ -133,35 +134,41 @@ export const GenderContainer = styled.div`
 
 export const GenderSelected = styled.div`
 
+
 @media (max-width: ${props => props.theme.screen.md}) {
   font-size: 10px;
   height: 20px;
   padding: 10px 20px;
   width: 120px;
+  margin: 0;
 }
-
+  height: 30px;
+  margin: 0 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-style: solid;
   border-width: 2px;
   border-radius: 50px;
-  padding: 0px 10px;
-  font-size: 50px;
+  padding: 0px 30px;
+  ${props => props.theme.font_size.small};
   }
 
 `
   ;
 
 export const GenderNotSelected = styled.div`
+  margin: 0 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-style: solid;
   border-width: 2px;
   border-radius: 50px;
-  padding: 10px 40px;
+  padding: 10px 30px;
   color: #c8c8c8;
+  height: 30px;
+
   ${props => props.theme.font_size.small};
   }
   @media (max-width: ${props => props.theme.screen.md}) {
@@ -169,16 +176,19 @@ export const GenderNotSelected = styled.div`
     height: 20px;
     padding: 10px 20px;
     width: 120px;
+    margin: 0;
   }
   
   `
   ;
 
 export const ResultsText = styled.div`
-${props => props.theme.font_size.xsmall};
+${props => props.theme.font_size.small};
+margin: auto 0;
 
 @media (max-width: ${props => props.theme.screen.md}) {
   ${props => props.theme.font_size.xsmall};
+  margin: 0;
 
 }`
   ;
