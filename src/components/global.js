@@ -105,6 +105,19 @@ export const Title = styled.div`
   }`
   ;
 
+  export const TitleFAQ = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  margin: 30px 50px;
+  background-color: #00FF00;
+  }`
+  ;
+
+
 export const OpensForContainer = styled.div`
 
   margin: 30px -30px;
@@ -214,4 +227,11 @@ margin-right: 50px;
   margin-top: 70px;
 }`;
 
+export const ParagraphTextFAQ = styled.div`
+margin-top: 30px;
+margin-left: 50px;
+margin-right: 50px;
+@media (min-width: ${props => props.theme.screen.sm}) {
+  margin-top: 30px;
+}`;
 

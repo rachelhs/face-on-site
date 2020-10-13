@@ -87,7 +87,7 @@ const GlobalStyles = createGlobalStyle`
 
   a {
     cursor: pointer;
-    text-decoration: none; 
+    text-decoration: underline; 
   }
   a:link{
     color:${props => props.theme.colour.text.black};
@@ -96,7 +96,7 @@ const GlobalStyles = createGlobalStyle`
     color:${props => props.theme.colour.text.black};
   }
   a:hover{
-    color:${props => props.theme.colour.text.black};
+    color: #00FF00;
   }
   a:active{
     color:${props => props.theme.colour.text.black};

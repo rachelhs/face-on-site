@@ -1,9 +1,8 @@
 import React from 'react';
-import teamStyles from './team.module.css';
 import { Section, Container, Title, TitleText, ParagraphText } from '@components/global';
 
 const PrivacyStatement = () => (
-  <Section id="howTo" className={teamStyles.sectionCollective}>
+  <Section id="howTo">
     <Container style={{ position: 'relative' }}>
       <Title><TitleText>PRIVACY</TitleText></Title>
       <ParagraphText>

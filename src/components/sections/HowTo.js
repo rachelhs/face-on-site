@@ -1,5 +1,4 @@
 import React from 'react';
-import teamStyles from './team.module.css';
 import { Section, FirstContainer, Title, TitleText } from '@components/global';
 import listStyles from './list.module.css';
 import arrow from '../../images/art/arrow.png';

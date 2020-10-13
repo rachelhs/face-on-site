@@ -4,6 +4,7 @@ import image1 from '../../images/results/001.png';
 import image2 from '../../images/results/002.png';
 import image3 from '../../images/results/003.png';
 import image4 from '../../images/results/004.png';
+import image5 from '../../images/results/005.png';
 
 import resultsStyles from './results.module.css';
 
@@ -26,7 +27,7 @@ const Results = () => (
             </OpensForContainer>
 
             {/* FEMALE 56 - 70 IMAGES GO BELOW HERE */}
-
+            <img className={resultsStyles.resultsImage} src={image5} alt="person accepted entry"></img>
             {/* CHALLENGE 2 MALE 11 - 25 */}
 
             <OpensForContainer>

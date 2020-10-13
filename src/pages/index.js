@@ -5,9 +5,10 @@ import Images from '@sections/Images';
 import About from '@sections/About';
 import HowTo from '@sections/HowTo';
 import Disguises from '@sections/Disguises';
-import FAQ from '@sections/FAQ';
+import FAQContainer from '@sections/FAQContainer';
 import PrivacyStatement from '@sections/PrivacyStatement';
 import SupportedBy from '@sections/SupportedBy';
+import ResultsContainer from '@sections/ResultsContainer';
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,8 @@ const IndexPage = () => (
     <HowTo />
     <Disguises />
     <About />
+    <FAQContainer />
+    <ResultsContainer />
     <PrivacyStatement />
     <SupportedBy />
   </Layout>
