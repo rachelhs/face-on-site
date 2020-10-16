@@ -5,6 +5,12 @@ import image2 from '../../images/results/002.png';
 import image3 from '../../images/results/003.png';
 import image4 from '../../images/results/004.png';
 import image5 from '../../images/results/005.png';
+import image51 from '../../images/results/0051.png';
+import image6 from '../../images/results/006.png';
+import image7 from '../../images/results/007.png';
+import image8 from '../../images/results/008.png';
+import image9 from '../../images/results/009.png';
+import image10 from '../../images/results/010.png';
 
 import resultsStyles from './results.module.css';
 
@@ -73,6 +79,12 @@ const Results = () => (
             <img className={resultsStyles.resultsImage} src={image1} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image3} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image4} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image51} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image6} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image7} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image8} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image9} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image10} alt="person denied entry"></img>
 
         </Container>
     </Section>
