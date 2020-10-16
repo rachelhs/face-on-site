@@ -22,10 +22,10 @@ import image18 from '../../images/results/018.png';
 import image19 from '../../images/results/019.png';
 import image20 from '../../images/results/020.png';
 import image21 from '../../images/results/021.png';
-
-
-
-
+import image22 from '../../images/results/022.png';
+import image23 from '../../images/results/023.png';
+import image24 from '../../images/results/024.png';
+import image25 from '../../images/results/025.png';
 
 import resultsStyles from './results.module.css';
 
@@ -68,6 +68,7 @@ const Results = () => (
 
 
             <img className={resultsStyles.resultsImage} src={image2} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image24} alt="person denied entry"></img>
 
             {/* CHALLENGE 3 GENDERLESS 26 - 40 */}
 
@@ -111,6 +112,10 @@ const Results = () => (
             <img className={resultsStyles.resultsImage} src={image19} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image20} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image21} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image22} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image23} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image25} alt="person denied entry"></img>
+
 
 
         </Container>
