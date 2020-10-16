@@ -11,6 +11,10 @@ import image7 from '../../images/results/007.png';
 import image8 from '../../images/results/008.png';
 import image9 from '../../images/results/009.png';
 import image10 from '../../images/results/010.png';
+import image11 from '../../images/results/011.png';
+import image12 from '../../images/results/012.png';
+import image13 from '../../images/results/013.png';
+import image14 from '../../images/results/014.png';
 
 import resultsStyles from './results.module.css';
 
@@ -85,6 +89,11 @@ const Results = () => (
             <img className={resultsStyles.resultsImage} src={image8} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image9} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image10} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image11} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image12} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image13} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image14} alt="person denied entry"></img>
+
 
         </Container>
     </Section>
