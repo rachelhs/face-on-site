@@ -26,6 +26,7 @@ import image22 from '../../images/results/022.png';
 import image23 from '../../images/results/023.png';
 import image24 from '../../images/results/024.png';
 import image25 from '../../images/results/025.png';
+import image26 from '../../images/results/026.png';
 
 import resultsStyles from './results.module.css';
 
@@ -115,8 +116,7 @@ const Results = () => (
             <img className={resultsStyles.resultsImage} src={image22} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image23} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image25} alt="person denied entry"></img>
-
-
+            <img className={resultsStyles.resultsImage} src={image26} alt="person denied entry"></img>
 
         </Container>
     </Section>
