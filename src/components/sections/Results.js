@@ -19,6 +19,8 @@ import image15 from '../../images/results/015.png';
 import image16 from '../../images/results/016.png';
 import image17 from '../../images/results/017.png';
 import image18 from '../../images/results/018.png';
+import image19 from '../../images/results/019.png';
+
 
 
 
@@ -103,6 +105,7 @@ const Results = () => (
             <img className={resultsStyles.resultsImage} src={image16} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image17} alt="person denied entry"></img>
             <img className={resultsStyles.resultsImage} src={image18} alt="person denied entry"></img>
+            <img className={resultsStyles.resultsImage} src={image19} alt="person denied entry"></img>
 
 
         </Container>
