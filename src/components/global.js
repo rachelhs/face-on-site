@@ -235,3 +235,27 @@ margin-right: 50px;
   margin-top: 30px;
 }`;
 
+export const ParagraphTextPortfolio = styled.div`
+font-size: x-large;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: calc(50% - 400px);
+width: 800px;
+@media (max-width: ${props => props.theme.screen.sm}) {
+  width: 300px;
+  margin-left: calc(50% - 150px);
+  font-size: medium;
+}`;
+
+export const TitleTextPortfolio = styled.div`
+text-decoration: underline;
+margin-top: 30px;
+margin-left: calc(50% - 400px);
+width: 800px;
+font-size: x-large;
+@media (max-width: ${props => props.theme.screen.sm}) {
+  width: 300px;
+  margin-left: calc(50% - 150px);
+  font-size: medium;
+}`;
+
