@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Container, ParagraphTextPortfolio, TitleTextPortfolio, TitleText, Title } from '@components/global';
+import { Section, Container, ParagraphTextPortfolio, TitleTextPortfolio, TitleText, TitlePortfolio } from '@components/global';
 import sentimentHonk from '../../images/portfolio/sentiment_honk.jpg';
 import cat1 from '../../images/portfolio/cat1.jpg';
 import cat2 from '../../images/portfolio/cat2.jpg';
@@ -12,7 +12,7 @@ const Portfolio = () => (
     <Section id="results">
         <Container style={{ position: 'relative' }}>
 
-            <Title className={resultsStyles.portfolioTitle}><TitleText>Examples of Work</TitleText></Title>
+            <TitlePortfolio className={resultsStyles.portfolioTitle}><TitleText>Examples of Work</TitleText></TitlePortfolio>
             <TitleTextPortfolio>Face / On (2020) Webcam, Face Recognition System (Microsoft), Arduino, Face changing Apps</TitleTextPortfolio>
             <ParagraphTextPortfolio>Face / On is an interactive installation exploring Facial Recognition Technology. On approaching the door, you are given a challenge persona. For example, female aged 56 - 70. The door will only open for faces that it considers belong to these categories. To gain entry you may have to adopt a disguise. Face / On is a hands-on approach to interrogating hidden algorithms which make decisions about out identities. What are these categories in the eyes of the algorithm and how do they compare to our own ideas about identity? <br/><a href="http://rachelsmith.xyz/face-on" target="_blank" rel="noreferrer">rachelsmith.xyz/face-on</a></ParagraphTextPortfolio>
             <iframe className={resultsStyles.resultsImage+ ' ' + resultsStyles.video} src="https://player.vimeo.com/video/475515877" width="800" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

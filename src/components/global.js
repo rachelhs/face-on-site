@@ -105,6 +105,16 @@ export const Title = styled.div`
   }`
   ;
 
+  export const TitlePortfolio = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  }`
+  ;
+
   export const TitleFAQ = styled.div`
   display: flex;
   align-items: center;
