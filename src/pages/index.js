@@ -9,6 +9,7 @@ import FAQContainer from '@sections/FAQContainer';
 import PrivacyStatement from '@sections/PrivacyStatement';
 import SupportedBy from '@sections/SupportedBy';
 import ResultsContainer from '@sections/ResultsContainer';
+import Contact from '@sections/Contact';
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <FAQContainer />
     <ResultsContainer />
     <PrivacyStatement />
+    <Contact />
     <SupportedBy />
   </Layout>
 );
