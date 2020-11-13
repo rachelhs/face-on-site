@@ -14,9 +14,9 @@ import Contact from '@sections/Contact';
 const IndexPage = () => (
   <Layout>
     <Images />
+    <About />
     <HowTo />
     <Disguises />
-    <About />
     <FAQContainer />
     <ResultsContainer />
     <PrivacyStatement />

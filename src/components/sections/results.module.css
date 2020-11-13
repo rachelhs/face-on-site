@@ -42,6 +42,19 @@
     }
 }
 
+.videoAbout {
+    padding-top: 30px;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+    .videoAbout {
+        align-items: start;
+        height: fit-content;
+        padding-bottom: 0;
+    }
+}
+
 .twoImages {
     display: flex;
     width: 800px;

@@ -35,6 +35,7 @@ export class Images extends React.Component {
     //const scrolled = winScroll / height
     const scrolled = winScroll;
   
+    // screenHeight for mobiles is under 5000 (check this when adding / removing content to main page)
     this.setState({
       theposition: scrolled,
       screenHeight: height
@@ -44,7 +45,7 @@ export class Images extends React.Component {
   render() {
     return (
       <div>
-      {((this.state.theposition < 930 && this.state.screenHeight < 4500) || (this.state.theposition < 2070 && this.state.screenHeight > 4500)) ? <Navbar /> : ''}
+      {((this.state.theposition < 930 && this.state.screenHeight < 5000) || (this.state.theposition < 2070 && this.state.screenHeight > 5000)) ? <Navbar /> : ''}
       <FirstSection id="images">
         <img className={imageStyles.images} src={image1} alt="person interacting with door"></img>
         <img className={imageStyles.images} src={image2} alt="person interacting with door"></img>
